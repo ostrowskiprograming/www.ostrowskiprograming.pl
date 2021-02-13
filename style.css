@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3b3d47;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* secion Nawigacja pierwsz lina   -------------------------------------------------------------------------------------------*/
+nav{
+    width: 100%;
+    padding: 10px;
+}
+.cointener_nav{
+    width: 1350px;
+    margin: auto;
+}
+.nav_item1>a>img{
+    height: 60px;
+    display: block;
+}
+.nav_item1{
+    float: left;
+    padding: 10px;
+}
+
+.nav_item2{
+    padding: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    float: right;
+}
+.nav_item2>a{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0;
+    transition-timing-function: ease;
+    display: block;
+}
+.nav_item2>a:hover{
+    color:#4ceb96 ;
+}
+.nav_item2 > a > img{
+    position: absolute;
+    top: 20px;
+
+}
+#close:hover{
+    animation-name: rotation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/* secion Wprowadzenie druga      ---------------------------------------------------------------------------*/
+.header{
+    padding-top: 100px;
+    text-align: center;
+}
+.header>h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.header>h2{
+    padding: 10px;
+    font-weight: 300;
+}
+.foto{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin: 30px auto;
+    text-align: center;
+}
+.foto_computer{
+    margin-bottom: -4px;
+}
+/*secion information -------------------------------------------------------------------------*/
+.information{
+    height: 600px;
+    width: 100%;
+    background-color:#4ceb96;
+    text-align: center;
+    padding: 150px;
+}
+.information>h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.information>p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+/*secion moje skile    -------------------------------------------------------------------------------*/
+.my_skils{
+    text-align: center;
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: -200px;
+    display: flex;
+    z-index: 99;
+}
+.cointener_my_skils{
+    height: 850px;
+    width: 1050px;
+    display: flex;
+}
+.skils{
+
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    width: 350px;
+    background-color: #3b3d47;
+    box-shadow: 0 5px 5px 0 #585b6b, 0 0 0 1px #585b6b;
+}
+.skil_L{
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    flex-grow: 1;
+    border-bottom: 1px solid #484a56;
+    border-left: 1px solid #484a56;
+    flex-shrink: 1;
+}
+.skil_S{
+    height: 850px;
+    background-color: #3b3d47;
+    width: 350px;
+    padding: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-bottom: 1px solid #484a56;
+    border-left: 1px solid #484a56;
+    box-shadow: 0 5px 5px 0 #585b6b, 0 0 0 1px #585b6b;
+}
+.skil_P{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-bottom: 1px solid #484a56;
+    border-left: 1px solid #484a56;
+    border-right: 1px solid #484a56;
+}
+/*secion moje prace     ----------------------------------------------------------------------------------------*/
+.my_work{
+    width: 1050px;
+    height: 400px;
+    margin: 100px auto;
+    
+    text-align: center;
+}
+.my_work>h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.my_work>h2{
+    padding: 10px;
+    font-weight: 300;
+}
+.work{
+    display: inline-block;
+    background-color: green;
+    height: 250px;
+    margin-top: 70px;
+    margin-right: 25px;
+    width: 300px;
+}
+
+/*footer   -------------------------------------------------------------------------------------------------*/
+footer{
+    width: 100%;
+    background-color: #4ceb96;
+    text-align: center;
+    padding-top: 50px;
+    padding: 0 100px 0 100px;
+    z-index: -1;
+}
+footer>p{
+    display: block;
+}
+.cooperation2{
+    margin-bottom: -30px;
+}
+.cooperation{
+    position: relative;
+    margin: 0 auto;
+    width: 1050px;
+    box-shadow: 0 5px 5px 0 #339966, 0 0 0 1px #339966;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #006633;
+    border-radius: 15px;
+    padding: 50px;
+    margin-bottom: -70px;
+    margin-top: 10px;
+    z-index: 99;
+}
+.button{
+    color: white;
+    border-radius: 290486px;
+    padding: 10px;
+    background-color: #006633;
+    font-size: 20px;
+    border: 4px solid #4ceb96;
+    width: 250px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0;
+    transition-timing-function: ease;
+}
+.button:hover{
+    width: 50%;
+    background-color: #4ceb96;
+    cursor: pointer;
+}
+.bold{
+    font-size: 25px;
+    font-weight: 600;
+}
+.space{
+    width: 100%;
+    height: 30px;
+    padding: 50px;
+}
+.footer_logo{
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    display: block;
+    z-index: 12;
+}
+.footer_information>p{
+    font-size: 25px;
+    padding: 20px;
+}
+.zastrzezone{
+    padding: 40px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.socila_media > h2{
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.socila_media > div{
+    margin-left: 40px;
+    display: inline-block;
+}
+.socila_media > div > img{
+    height:  50px;
+}
+
+/*secion contact  ------------------------------------------------------------------------------------------*/
+
+.contact{
+    align-items: center;
+    width: 1350px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact > h1{
+    font-size: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+form{
+    width: 640px;
+    display: inline-block;
+}
+label{
+    font-size: 19px;
+    margin-right:10px;
+    margin-top: 100px;
+    
+}
+#l_name{
+    float: left;
+    padding-bottom: 15px;
+    margin-right: 50px;
+}
+#l_email{
+    display: block;
+}
+#l_message{
+    width: 310px;
+    display: block;
+    margin-left: -100px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+input[type=text]{
+    margin-right: 25px;
+    border: none;
+    border-radius: 4px;
+    width: 310px;
+    height: 35px;
+    font-size: 22px;
+    padding: 25px;
+    font-weight: 300;
+    box-shadow: 0 5px 5px 0 #585b6b, 0 0 0 1px #585b6b;
+    margin-bottom: 30px;
+}
+.inline_input{
+    display: inline-flex;
+}
+textarea{
+    border: none;
+    border-radius: 4px;
+    max-width: 645px;
+    width: 645px;
+    height: 250px;
+    font-size: 22px;
+    padding: 25px;
+    font-weight: 300;
+    box-shadow: 0 5px 5px 0 #585b6b, 0 0 0 1px #585b6b;
+}
+form > .button{
+    margin-top: 40px;
+    background-color: #3b3d47;
+}
+
+
+
+
+@keyframes rotation {
+    form{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(90deg);
+
+    }
+}
