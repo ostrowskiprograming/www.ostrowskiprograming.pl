@@ -1,1 +1,1 @@
-# www.ostrowskiprograming.pl
+https://ostrowskiprograming.github.io/www.ostrowskiprograming.pl/
