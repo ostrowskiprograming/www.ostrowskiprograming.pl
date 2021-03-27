@@ -1,0 +1,43 @@
+@media (min-width: 320px){
+    .cointener_nav{
+        width: 320px;
+    }
+}
+@media(min-width: 581px){
+    .cointener_nav{
+        width: 581px;
+    }
+
+
+
+}
+@media(min-width: 781px){
+    h1{
+        font-size: 50px;
+    }
+    body{
+        font-size: 90%;
+    }
+    .cointener_nav{
+        width: 751px;
+    }
+
+
+}
+@media(min-width: 1050px){
+    .cointener_nav{
+        width: 774px;
+    }
+
+}
+@media(min-width: 1200px){
+    .cointener_nav{
+        width: 950px;
+    }
+
+}
+    
+@media(min-width: 1600px){
+
+
+}
